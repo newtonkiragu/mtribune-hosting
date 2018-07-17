@@ -93,7 +93,7 @@ if config('MODE') == 'dev':
     }
 else:
     DATABASES = {
-        'default': dj_database_url.conf(
+        'default': dj_database_url.config(
             default=config('DATABASE_URL')
         )
     }
