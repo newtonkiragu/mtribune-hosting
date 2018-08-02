@@ -1,0 +1,94 @@
+# Mtribune
+#### Moringa Tribunal
+
+## Description
+This is an application where users can sign in and get the latest news and features from Moringa School. Users can subscribe to the mailing list to get the latest news and features.
+
+#### Link to deployed site
+http://mtr1bune.herokuapp.com/
+
+
+## Set Up and Installations
+
+#### Prerequisites
+1. [Python3.6](https://www.python.org/downloads/)
+2. [Postgres](https://www.postgresql.org/download/)
+3. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
+4. [Pip](https://pip.pypa.io/en/stable/installing/)
+
+#### Clone the Repo and checkout into the project folder.
+```bash
+git clone git@github.com:newtonkiragu/mtribune-hosting.git && cd mtribune-hosting
+```
+
+#### Create and activate the virtual environment
+```bash
+python3.6 -m virtualenv virtual
+```
+
+```bash
+source virtual/bin/activate
+```
+
+#### Setting up environment variables
+Create a `.env` file and paste paste the following filling where appropriate:
+```
+SECRET_KEY='<Secret_key>'
+DBNAME='tribune'
+USER='<Username>'
+PASSWORD='<password>'
+DEBUG=True
+
+EMAIL_USE_TLS=True
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_HOST_USER='<your-email>'
+EMAIL_HOST_PASSWORD='<your-password>'
+```
+
+#### Install dependancies
+Install dependancies that will create an environment for the app to run
+`pip install -r requirements.txt`
+
+#### Create the Database
+In a new terminal, open the postgresql shell with `psql`.
+```bash
+CREATE DATABASE tribune;
+```
+
+#### Make and run migrations
+```bash
+python3.6 manage.py makemigrations && python3.6 manage.py migrate
+```
+
+#### Run the app
+```bash
+python3.6 manage.py runserver
+```
+Open [localhost:8000](http://127.0.0.1:8000/)
+
+## Deployment
+To deploy the application, please follow the instructions in [this gist](https://gist.github.com/newtonkiragu/42f2500e56d9c2375a087233587eddd0)
+
+## Contributing
+Please read this [comprehensive guide](https://opensource.guide/how-to-contribute/) on how to contribute. Pull requests are welcome :-)
+
+## Bugs
+Create an issue mentioning the bug you have found
+#### Known bugs
+ - cannot subscribe to email list in live application
+
+## Technologies used
+    - Python 3.6
+    - HTML
+    - Bootstrap 4
+    - Heroku
+    - Postgresql
+
+## Support and contact details
+Contact [Newton Karanu](karanunewton4@gmail.com) for further help/support
+
+### License
+MIT
+
+Copyright (c)2018 **Newton Karanu**
