@@ -14,7 +14,7 @@ http://mtr1bune.herokuapp.com/
 4. [Contributing](#contributing)
 5. [Bugs](#bugs)
 6. [Contact me](#support-and-contact-details)
-7. [Licencing](#licencing)
+7. [Licensing](#license)
 
 
 ## Setup and installations
