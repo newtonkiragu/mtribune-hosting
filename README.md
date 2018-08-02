@@ -7,14 +7,30 @@ This is an application where users can sign in and get the latest news and featu
 #### Link to deployed site
 http://mtr1bune.herokuapp.com/
 
+## Table of content
+1. [Description](#description)
+2. [Setup and installations](#setup-and-installations)
+3. [Deployment](#deployment)
+4. [Contributing](#contributing)
+5. [Bugs](#bugs)
+6. [Contact me](#support-and-contact-details)
+7. [Licencing](#licencing)
 
-## Set Up and Installations
+
+## Setup and installations
 
 #### Prerequisites
 1. [Python3.6](https://www.python.org/downloads/)
 2. [Postgres](https://www.postgresql.org/download/)
 3. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 4. [Pip](https://pip.pypa.io/en/stable/installing/)
+
+#### Technologies used
+    - Python 3.6
+    - HTML
+    - Bootstrap 4
+    - Heroku
+    - Postgresql
 
 #### Clone the Repo and checkout into the project folder.
 ```bash
@@ -75,15 +91,11 @@ Please read this [comprehensive guide](https://opensource.guide/how-to-contribut
 
 ## Bugs
 Create an issue mentioning the bug you have found
+
 #### Known bugs
  - cannot subscribe to email list in live application
 
-## Technologies used
-    - Python 3.6
-    - HTML
-    - Bootstrap 4
-    - Heroku
-    - Postgresql
+
 
 ## Support and contact details
 Contact [Newton Karanu](karanunewton4@gmail.com) for further help/support
